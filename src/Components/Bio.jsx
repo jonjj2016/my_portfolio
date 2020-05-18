@@ -26,15 +26,16 @@ const MainBioWrapper = styled.div`
   align-items: center;
 `;
 const BioSomething = styled.div`
-  @media only screen and (max-width: 70em) {
+  @media only screen and (max-width: 80em) {
   }
 `;
 const BioTitle = styled.h1`
   font-size: 4rem;
 
   padding: 2rem 0 2rem 1.5rem;
-  @media only screen and (max-width: 70em) {
-    padding: 2rem 0 2rem 1.5rem;
+  @media only screen and (max-width: 80em) {
+    padding: 1rem 0;
+    font-size: 3rem;
   }
 `;
 
@@ -46,7 +47,7 @@ const Wrapper = styled.div`
   @media only screen and (max-width: 80em) {
     width: 100vw;
     font-size: 1.5rem;
-    line-height: 2;
+    line-height: 1.5;
     padding: 1.5rem;
   }
   @media only screen and (max-width: 80em) {

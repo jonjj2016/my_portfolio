@@ -7,7 +7,15 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    /* @media only screen and (min-width: 80em) {
+      height: 100vh;
+    } */
   }
+  /* #projects {
+    @media only screen and (min-width: 80em) {
+      height: 100vh;
+    }
+  } */
   img {
     height: 70%;
     width: 90%;

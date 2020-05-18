@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   @media only screen and (max-width: 70em) {
-    margin: 1rem auto;
+    margin: 0.8rem auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ const Title = styled.div`
   font-size: 2rem;
   line-height: 2;
   @media only screen and (max-width: 80em) {
-    /* font-size: 1.2rem; */
+    font-size: 1.7rem;
     line-height: 1;
   }
 `;
