@@ -23,16 +23,8 @@ const ProjectPage = ({ modalOpen, projects, current, toggleModal, closeModal }) 
 };
 const Wrapper = styled.div`
   min-height: 100%;
-  /* width: 100%; */
+
   background-color: #eee;
   position: relative;
-  /* @media only screen and (min-width: 80em) {
-    padding-top: 50%;
-    height: 100vh;
-  } */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 `;
 export default ProjectPage;
