@@ -22,8 +22,8 @@ const ProjectPage = ({ modalOpen, projects, current, toggleModal, closeModal }) 
   );
 };
 const Wrapper = styled.div`
-  min-height: 100vh;
-  width: 100%;
+  min-height: 100%;
+  /* width: 100%; */
   background-color: #eee;
   position: relative;
   /* @media only screen and (min-width: 80em) {

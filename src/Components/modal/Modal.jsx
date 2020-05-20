@@ -41,16 +41,16 @@ const Wrapper = styled.div`
 const Content = styled.div`
   /* min-height: 10vh; */
   min-width: 30vw;
-  max-width: 60vw;
+  max-width: 90vw;
   background-color: #e8e8ea;
   border-radius: 10px;
   z-index: 2;
-  padding: 2rem;
+  padding: 5px 1rem 0;
   .buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
+    padding-bottom: 0.7rem;
   }
   @media only screen and (max-width: 70em) {
     .buttons {
